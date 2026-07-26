@@ -2,7 +2,7 @@
 
 A full-stack carpooling (ride-sharing) platform where passengers can find trips and drivers can publish rides, manage reservations, vehicles, and payments.
 
-🔗 **Live demo:** [your-app.vercel.app](https://your-app.vercel.app) 
+
 
 ![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-4-6DB33F?logo=springboot&logoColor=white)
@@ -63,25 +63,3 @@ npm start
 ```
 
 The app will run on `http://localhost:3000`.
-
-## Environment variables
-
-**Backend** (set in Render dashboard, or your local shell/IDE):
-
-| Variable | Example |
-|---|---|
-| `DATABASE_URL` | `jdbc:postgresql://<supabase-host>:5432/postgres` |
-| `DATABASE_USERNAME` | `postgres` |
-| `DATABASE_PASSWORD` | *(from Supabase)* |
-| `ALLOWED_ORIGINS` | `https://your-app.vercel.app,http://localhost:3000` |
-
-**Frontend** (set in Vercel dashboard, or `.env.local`):
-
-| Variable | Example |
-|---|---|
-| `REACT_APP_API_URL` | `https://your-backend.onrender.com/api` |
-| `REACT_APP_GOOGLE_MAPS_API_KEY` | *(your key, restricted to your domains)* |
-
-## License
-
-MIT
