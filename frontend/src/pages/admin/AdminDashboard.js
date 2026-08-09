@@ -72,7 +72,7 @@ const AdminDashboard = () => {
             <div style={{ display: 'flex', gap: 8, marginBottom: 20 }}>
                 {['👥 Utilisateurs', '🚗 Trajets'].map((t, i) => (
                     <button key={i} onClick={() => setTab(i)} style={{
-                        padding: '10px 24px', borderRadius: 12, border: 'none',
+                        padding: '10px 24px', borderRadius: 12,
                         fontFamily: 'Nunito, sans-serif', fontWeight: 800, fontSize: 14,
                         cursor: 'pointer', transition: 'all 0.2s',
                         background: tab === i ? '#E26D5C' : 'white',
