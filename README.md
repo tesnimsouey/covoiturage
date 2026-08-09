@@ -2,6 +2,7 @@
 
 A full-stack carpooling (ride-sharing) platform where passengers can find trips and drivers can publish rides, manage reservations, vehicles, and payments.
 
+🔗 **Live demo:** https://covoiturage-beta.vercel.app
 
 
 ![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white)
@@ -63,3 +64,6 @@ npm start
 ```
 
 The app will run on `http://localhost:3000`.
+## License
+
+MIT
